@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/9483757/how-to-exit-git-log-or-git-diff
