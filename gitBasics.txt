@@ -87,3 +87,11 @@ heroku
 then suppose you wnat to push changes to mygit 
 git push mygit master
 
+-----------------------------------
+Scenario 1: you have made some changes in your local but you don't want to push that changes in your git repo, use the below command
+ git reset --hard HEAD
+
+Scenario 2: After importing locally, you have made some changes in the git repo and in local also but you don't want to keep your local version change and instead want to pull the git repo changes, use below two query
+git reset --hard HEAD - delete local changes
+git pull origin main - pull git repo changes
+
