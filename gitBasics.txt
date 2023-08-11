@@ -17,7 +17,7 @@ To upload any folder to github
 4. Now do git add . -> this will add all the files to the staging area
 
 5. Now do git commit -m "Comment" -- this will commit all the changes
-	suppose you have commited twice, thrice or more then you can see the hash of commit using git log
+	suppose you have commited twice, thrice or more then you can see the hash of commit using `git log` and press `q` to come out of terminal
 	this will log all the git change 
 
 	commit 7cdccc12baf4487544f5f8ea7bd994a7be9c9680 (HEAD -> main)
