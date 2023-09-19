@@ -95,3 +95,12 @@ Scenario 2: After importing locally, you have made some changes in the git repo 
 git reset --hard HEAD - delete local changes
 git pull origin main - pull git repo changes
 
+Scenario 3: you want to download/clone github repository to windows folder then follow below steps
+	step1. open `cmd` and navigate to the folder where you want to download/clone github repository
+	step2. once you are inside folder, use `git clone https://github.com/username/repository.git`.
+	step3. waiting for downloading/cloning to get completed, now you will have local copy of repository.
+
+Scenario 4: you want to know Remote Repository URL
+	step1. you can check remote repository URL to identify the associated Github Repository using `git remote -v`
+
+
